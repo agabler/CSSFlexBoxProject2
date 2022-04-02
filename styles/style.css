@@ -79,7 +79,37 @@ a.tweeter{
 #flex-container-3{
         display:flex;
         flex-wrap: wrap;
-        background: beige;
+        background: darkgrey;
+        justify-content: center;
 
 }
+
+.nested-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.box{
+        min-height: 120px;
+        min-width: 120px;
+        padding: 10px;
+        margin: 5px;
+        background-color: lightgray;
+        text-align: center;
+
+}
+
+h4.box{
+        font-size: 16px;
+        
+}
+
+img{
+        max-height: 120px;
+        max-width: 120px;
+}
+
+
+
 
