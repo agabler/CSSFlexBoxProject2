@@ -1,0 +1,85 @@
+/*********************************************
+*author and date: Angelika G. April 2nd 2022
+*project: CSSFlex We love cycling webpage
+*
+**********************************************/
+body{
+        background:  #a39d9d;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+
+}
+
+#wrapper{
+        background-color: #a39d9d;
+        margin: 0;
+
+}
+
+nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color:#858585;
+        padding: 5px;
+        margin: 10px auto;
+
+}
+
+nav ul{
+        list-style-type: none;
+
+
+}
+
+.flex-container-1{
+        display: flex;
+        justify-content: space-between;
+
+
+}
+
+.flex-container-2{
+        display: flex;
+        justify-content: space-between;
+        
+}
+
+nav a{
+        text-decoration: none;
+        color: #333232;
+        text-align: center;
+        padding: 10px;
+        display: block;
+}
+
+nav a:hover{
+        background-color: #a39d9d;
+        color:floralwhite;
+
+}
+
+a.fb{
+        background-image: url(img/facebook.png) no-repeat center;
+      
+}
+
+a.instagram{
+        background-image: url(img/instagram.png) no-repeat center;
+
+}
+
+a.tweeter{
+        background-image: url(img/tweeter.png) no-repeat center;
+      
+
+}
+
+#flex-container-3{
+        display:flex;
+        flex-wrap: wrap;
+        background: beige;
+
+}
+
