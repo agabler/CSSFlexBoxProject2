@@ -12,7 +12,7 @@ body{
 }
 
 #wrapper{
-        background-color: #a39d9d;
+        background-color:#a39d9d;
         margin: 0;
 
 }
@@ -21,9 +21,10 @@ nav{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color:#858585;
+        background-color:#454341;
         padding: 5px;
-        margin: 10px auto;
+        margin: 5px auto;
+        border-radius: 8px;
 
 }
 
@@ -48,39 +49,52 @@ nav ul{
 
 nav a{
         text-decoration: none;
-        color: #333232;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: lightgray;
         text-align: center;
         padding: 10px;
         display: block;
+        margin: 1px;
 }
 
 nav a:hover{
         background-color: #a39d9d;
         color:floralwhite;
+        border-radius: 4px;
 
 }
 
 a.fb{
-        background-image: url(img/facebook.png) no-repeat center;
+        background: url(img/facebook.png) no-repeat center;
       
 }
 
 a.instagram{
-        background-image: url(img/instagram.png) no-repeat center;
+        background: url(img/instagram.png) no-repeat center;
 
 }
 
 a.tweeter{
-        background-image: url(img/tweeter.png) no-repeat center;
+        background: url(img/tweeter.png) no-repeat center;
       
 
+}
+
+.flex-container-1 img{
+        max-height: 50px;
+        max-width: 100px;
+        margin: 0px 30px 0px 0px;
 }
 
 #flex-container-3{
         display:flex;
         flex-wrap: wrap;
-        background: darkgrey;
+        background: #706f6e;
         justify-content: center;
+        padding: 5px;
+        margin: 10px auto;
+        border-radius: 8px;
 
 }
 
@@ -88,28 +102,57 @@ a.tweeter{
         display:flex;
         flex-wrap: wrap;
         justify-content: center;
+
 }
 
 .box{
-        min-height: 120px;
-        min-width: 120px;
-        padding: 10px;
-        margin: 5px;
+        height: 250px;
+        width: 300px;
+        padding: 1px;
+        margin: 2px;
         background-color: lightgray;
         text-align: center;
+        display: block;
+        border-radius: 7px;
+}
+
+.box h4{
+        font-size: 16px;
+        font-weight: 100;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box a{
+        text-decoration: none;
+        color: black;
 
 }
 
-h4.box{
-        font-size: 16px;
-        
+.box a:hover{
+        color: #8f8371;
 }
 
 img{
-        max-height: 120px;
-        max-width: 120px;
+        max-height: 250px;
+        max-width: 250px;
 }
 
+#flex-container-4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 100;
+        background-color:#454341;
+        padding: 5px;
+        margin: 10px auto;
+        border-radius: 8px;
+        color: lightgray;
 
+}
 
+#flex-container-4 p{
+        margin-left: 8px;
+        margin-right: 8px;
+}
 
